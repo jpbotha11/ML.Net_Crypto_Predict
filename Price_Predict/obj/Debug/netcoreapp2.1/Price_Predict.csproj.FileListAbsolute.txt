@@ -1,0 +1,10 @@
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\bin\Debug\netcoreapp2.1\Price_Predict.deps.json
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\bin\Debug\netcoreapp2.1\Price_Predict.runtimeconfig.json
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\bin\Debug\netcoreapp2.1\Price_Predict.runtimeconfig.dev.json
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\bin\Debug\netcoreapp2.1\Price_Predict.dll
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\bin\Debug\netcoreapp2.1\Price_Predict.pdb
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\obj\Debug\netcoreapp2.1\Price_Predict.csprojAssemblyReference.cache
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\obj\Debug\netcoreapp2.1\Price_Predict.AssemblyInfoInputs.cache
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\obj\Debug\netcoreapp2.1\Price_Predict.AssemblyInfo.cs
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\obj\Debug\netcoreapp2.1\Price_Predict.dll
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Price_Predict\obj\Debug\netcoreapp2.1\Price_Predict.pdb

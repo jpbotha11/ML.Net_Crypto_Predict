@@ -1,0 +1,5 @@
+BTC,Bitcoin,0.004963,2000
+ETH,Ethereum,0.1558,2000
+ETN,Electroneum,220,200
+COF,CoffeeCoin,3386,1500
+

@@ -1,0 +1,89 @@
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.pdb
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Form1.resources
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Properties.Resources.resources
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.exe
+C:\Users\User\Desktop\Programming\C#\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.pdb
+E:\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Form1.resources
+E:\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Properties.Resources.resources
+E:\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.GenerateResource.Cache
+E:\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.CoreCompileInputs.cache
+E:\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.exe
+E:\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.pdb
+E:\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe
+E:\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.pdb
+E:\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.dll
+E:\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.xml
+E:\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.frmMyCoins.resources
+E:\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe.config
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe.config
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.pdb
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\CryptopiaApi.dll
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\RestSharp.dll
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\CryptopiaApi.pdb
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\RestSharp.xml
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Form1.resources
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.frmMyCoins.resources
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Properties.Resources.resources
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.GenerateResource.Cache
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.exe
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.pdb
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.CoreCompileInputs.cache
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\CryptopiaApi.dll.config
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.CopyComplete
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.frmExchange.resources
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.dll
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.xml
+C:\Users\DEV\Desktop\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe.config
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.pdb
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.dll
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\RestSharp.dll
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.xml
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\RestSharp.xml
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Form1.resources
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.frmExchange.resources
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.frmMyCoins.resources
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Properties.Resources.resources
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.GenerateResource.cache
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.CoreCompileInputs.cache
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.CopyComplete
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.exe
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.pdb
+C:\Users\JACO\Documents\GitHub\jpbotha_dev\Projects\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csprojAssemblyReference.cache
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csprojAssemblyReference.cache
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Form1.resources
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto_Coin_Wallet.Properties.Resources.resources
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.GenerateResource.cache
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.exe
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.pdb
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe.config
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.exe
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Crypto Coin Wallet.pdb
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.dll
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\RestSharp.dll
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.xml
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\RestSharp.xml
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\JACO\Desktop\Crypto Coin Wallet\Crypto Coin Wallet\obj\Debug\Crypto Coin Wallet.csproj.CopyComplete

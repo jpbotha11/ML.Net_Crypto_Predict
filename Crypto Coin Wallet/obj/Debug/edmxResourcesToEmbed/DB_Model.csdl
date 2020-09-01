@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Crypto_Trader_Entities" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="order_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="trade_pair" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="order_price" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="order_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="active" Type="Int32" />
+    <Property Name="order_date" Type="DateTime" Precision="3" />
+    <Property Name="order_exchange" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Crypto_TraderEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="orders" EntityType="Self.order" />
+    <EntitySet Name="coin_history" EntityType="Crypto_Trader_Entities.coin_history" />
+    <FunctionImport Name="process_coin_prices" ReturnType="Collection(DateTime)" />
+    <FunctionImport Name="get_coin_prices" ReturnType="Collection(Crypto_Trader_Entities.get_coin_prices_Result)">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <EntitySet Name="coin_history_breakdown" EntityType="Crypto_Trader_Entities.coin_history_breakdown" />
+    <EntitySet Name="coin_history_volume" EntityType="Crypto_Trader_Entities.coin_history_volume" />
+  </EntityContainer>
+  <EntityType Name="coin_history">
+    <Key>
+      <PropertyRef Name="row_id" />
+    </Key>
+    <Property Name="row_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="coin_symbol" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="coin_currency" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="hist_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="price_low" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="price_high" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="price_diff" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="price_diff_perc" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="price_diff_daily" Type="Decimal" Precision="16" Scale="6" />
+  </EntityType>
+  <ComplexType Name="get_coin_prices_Result">
+    <Property Type="Int32" Name="row_id" Nullable="false" />
+    <Property Type="String" Name="coin_symbol" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="coin_currency" Nullable="true" MaxLength="10" />
+    <Property Type="DateTime" Name="hist_date" Nullable="false" Precision="23" />
+    <Property Type="Decimal" Name="price_low" Nullable="true" Precision="16" Scale="6" />
+    <Property Type="Decimal" Name="price_high" Nullable="true" Precision="16" Scale="6" />
+    <Property Type="Decimal" Name="price_diff" Nullable="true" Precision="16" Scale="6" />
+    <Property Type="Decimal" Name="price_diff_perc" Nullable="true" Precision="16" Scale="6" />
+    <Property Type="Decimal" Name="price_diff_daily" Nullable="true" Precision="16" Scale="6" />
+  </ComplexType>
+  <EntityType Name="coin_history_breakdown">
+    <Key>
+      <PropertyRef Name="day_id" />
+    </Key>
+    <Property Name="day_id" Type="Int32" Nullable="false" />
+    <Property Name="h1" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h2" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h3" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h4" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h5" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h6" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h7" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h8" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h9" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h10" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h11" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h12" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h13" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h14" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h15" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h16" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h17" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h18" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h19" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h20" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h21" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h22" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h23" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="h24" Type="Decimal" Precision="16" Scale="6" />
+    <Property Name="real_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="coin_history_volume">
+    <Key>
+      <PropertyRef Name="row_id" />
+    </Key>
+    <Property Name="hist_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="low_price" Type="Decimal" Nullable="false" Precision="16" Scale="6" />
+    <Property Name="high_price" Type="Decimal" Nullable="false" Precision="16" Scale="6" />
+    <Property Name="open_price" Type="Decimal" Nullable="false" Precision="16" Scale="6" />
+    <Property Name="volume_from" Type="Decimal" Nullable="false" Precision="16" Scale="6" />
+    <Property Name="volume_to" Type="Decimal" Nullable="false" Precision="16" Scale="6" />
+    <Property Name="close_price" Type="Decimal" Nullable="false" Precision="16" Scale="6" />
+    <Property Name="coin_symbol" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="row_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

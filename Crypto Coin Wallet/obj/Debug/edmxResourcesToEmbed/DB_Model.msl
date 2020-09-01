@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Crypto_Trader_EntitiesStoreContainer" CdmEntityContainer="Crypto_TraderEntities">
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="Crypto_Trader_Entities.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="trade_pair" ColumnName="trade_pair" />
+          <ScalarProperty Name="order_price" ColumnName="order_price" />
+          <ScalarProperty Name="order_type" ColumnName="order_type" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="order_date" ColumnName="order_date" />
+          <ScalarProperty Name="order_exchange" ColumnName="order_exchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coin_history">
+      <EntityTypeMapping TypeName="Crypto_Trader_Entities.coin_history">
+        <MappingFragment StoreEntitySet="coin_history">
+          <ScalarProperty Name="price_diff_daily" ColumnName="price_diff_daily" />
+          <ScalarProperty Name="price_diff_perc" ColumnName="price_diff_perc" />
+          <ScalarProperty Name="price_diff" ColumnName="price_diff" />
+          <ScalarProperty Name="price_high" ColumnName="price_high" />
+          <ScalarProperty Name="price_low" ColumnName="price_low" />
+          <ScalarProperty Name="hist_date" ColumnName="hist_date" />
+          <ScalarProperty Name="coin_currency" ColumnName="coin_currency" />
+          <ScalarProperty Name="coin_symbol" ColumnName="coin_symbol" />
+          <ScalarProperty Name="row_id" ColumnName="row_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="process_coin_prices" FunctionName="Crypto_Trader_Entities.Store.process_coin_prices" />
+    <FunctionImportMapping FunctionImportName="get_coin_prices" FunctionName="Crypto_Trader_Entities.Store.get_coin_prices">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Crypto_Trader_Entities.get_coin_prices_Result">
+          <ScalarProperty Name="row_id" ColumnName="row_id" />
+          <ScalarProperty Name="coin_symbol" ColumnName="coin_symbol" />
+          <ScalarProperty Name="coin_currency" ColumnName="coin_currency" />
+          <ScalarProperty Name="hist_date" ColumnName="hist_date" />
+          <ScalarProperty Name="price_low" ColumnName="price_low" />
+          <ScalarProperty Name="price_high" ColumnName="price_high" />
+          <ScalarProperty Name="price_diff" ColumnName="price_diff" />
+          <ScalarProperty Name="price_diff_perc" ColumnName="price_diff_perc" />
+          <ScalarProperty Name="price_diff_daily" ColumnName="price_diff_daily" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="coin_history_breakdown">
+      <EntityTypeMapping TypeName="Crypto_Trader_Entities.coin_history_breakdown">
+        <MappingFragment StoreEntitySet="coin_history_breakdown">
+          <ScalarProperty Name="real_date" ColumnName="real_date" />
+          <ScalarProperty Name="h24" ColumnName="h24" />
+          <ScalarProperty Name="h23" ColumnName="h23" />
+          <ScalarProperty Name="h22" ColumnName="h22" />
+          <ScalarProperty Name="h21" ColumnName="h21" />
+          <ScalarProperty Name="h20" ColumnName="h20" />
+          <ScalarProperty Name="h19" ColumnName="h19" />
+          <ScalarProperty Name="h18" ColumnName="h18" />
+          <ScalarProperty Name="h17" ColumnName="h17" />
+          <ScalarProperty Name="h16" ColumnName="h16" />
+          <ScalarProperty Name="h15" ColumnName="h15" />
+          <ScalarProperty Name="h14" ColumnName="h14" />
+          <ScalarProperty Name="h13" ColumnName="h13" />
+          <ScalarProperty Name="h12" ColumnName="h12" />
+          <ScalarProperty Name="h11" ColumnName="h11" />
+          <ScalarProperty Name="h10" ColumnName="h10" />
+          <ScalarProperty Name="h9" ColumnName="h9" />
+          <ScalarProperty Name="h8" ColumnName="h8" />
+          <ScalarProperty Name="h7" ColumnName="h7" />
+          <ScalarProperty Name="h6" ColumnName="h6" />
+          <ScalarProperty Name="h5" ColumnName="h5" />
+          <ScalarProperty Name="h4" ColumnName="h4" />
+          <ScalarProperty Name="h3" ColumnName="h3" />
+          <ScalarProperty Name="h2" ColumnName="h2" />
+          <ScalarProperty Name="h1" ColumnName="h1" />
+          <ScalarProperty Name="day_id" ColumnName="day_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coin_history_volume">
+      <EntityTypeMapping TypeName="Crypto_Trader_Entities.coin_history_volume">
+        <MappingFragment StoreEntitySet="coin_history_volume">
+          <ScalarProperty Name="row_id" ColumnName="row_id" />
+          <ScalarProperty Name="coin_symbol" ColumnName="coin_symbol" />
+          <ScalarProperty Name="close_price" ColumnName="close_price" />
+          <ScalarProperty Name="volume_to" ColumnName="volume_to" />
+          <ScalarProperty Name="volume_from" ColumnName="volume_from" />
+          <ScalarProperty Name="open_price" ColumnName="open_price" />
+          <ScalarProperty Name="high_price" ColumnName="high_price" />
+          <ScalarProperty Name="low_price" ColumnName="low_price" />
+          <ScalarProperty Name="hist_date" ColumnName="hist_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

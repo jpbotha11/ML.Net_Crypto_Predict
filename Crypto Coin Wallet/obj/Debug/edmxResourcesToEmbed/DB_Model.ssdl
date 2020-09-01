@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Crypto_Trader_Entities.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="coin_history">
+    <Key>
+      <PropertyRef Name="row_id" />
+    </Key>
+    <Property Name="row_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="coin_symbol" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="coin_currency" Type="nchar" MaxLength="10" />
+    <Property Name="hist_date" Type="datetime" Nullable="false" />
+    <Property Name="price_low" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="price_high" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="price_diff" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="price_diff_perc" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="price_diff_daily" Type="decimal" Precision="16" Scale="6" />
+  </EntityType>
+  <EntityType Name="coin_history_breakdown">
+    <Key>
+      <PropertyRef Name="day_id" />
+    </Key>
+    <Property Name="day_id" Type="int" Nullable="false" />
+    <Property Name="h1" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h2" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h3" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h4" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h5" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h6" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h7" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h8" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h9" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h10" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h11" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h12" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h13" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h14" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h15" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h16" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h17" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h18" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h19" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h20" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h21" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h22" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h23" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="h24" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="real_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="coin_history_volume">
+    <Key>
+      <PropertyRef Name="row_id" />
+    </Key>
+    <Property Name="hist_date" Type="date" Nullable="false" />
+    <Property Name="low_price" Type="decimal" Precision="16" Scale="6" Nullable="false" />
+    <Property Name="high_price" Type="decimal" Precision="16" Scale="6" Nullable="false" />
+    <Property Name="open_price" Type="decimal" Precision="16" Scale="6" Nullable="false" />
+    <Property Name="volume_from" Type="decimal" Precision="16" Scale="6" Nullable="false" />
+    <Property Name="volume_to" Type="decimal" Precision="16" Scale="6" Nullable="false" />
+    <Property Name="close_price" Type="decimal" Precision="16" Scale="6" Nullable="false" />
+    <Property Name="coin_symbol" Type="varchar" MaxLength="50" />
+    <Property Name="row_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="orders">
+    <Key>
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="order_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trade_pair" Type="varchar" MaxLength="50" />
+    <Property Name="order_price" Type="decimal" Precision="16" Scale="6" />
+    <Property Name="order_type" Type="varchar" MaxLength="50" />
+    <Property Name="active" Type="int" />
+    <Property Name="order_date" Type="datetime" />
+    <Property Name="order_exchange" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Function Name="get_coin_prices" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="date" Mode="In" />
+  </Function>
+  <Function Name="process_coin_prices" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="Crypto_Trader_EntitiesStoreContainer">
+    <EntitySet Name="coin_history" EntityType="Self.coin_history" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="coin_history_breakdown" EntityType="Self.coin_history_breakdown" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="coin_history_volume" EntityType="Self.coin_history_volume" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="orders" EntityType="Self.orders" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

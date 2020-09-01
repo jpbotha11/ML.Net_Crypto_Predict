@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypto Coin Wallet", "Crypto Coin Wallet\Crypto Coin Wallet.csproj", "{C1306838-848E-4ACB-9CAD-F304A2300826}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Price_Predict", "Price_Predict\Price_Predict.csproj", "{CFF96E63-95C2-4681-B331-51F02EE9E9F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|x64.Build.0 = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Debug|x86.Build.0 = Debug|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|ARM.Build.0 = Release|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|x64.ActiveCfg = Release|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|x64.Build.0 = Release|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1306838-848E-4ACB-9CAD-F304A2300826}.Release|x86.Build.0 = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|x64.Build.0 = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Debug|x86.Build.0 = Debug|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|ARM.Build.0 = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|x64.ActiveCfg = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|x64.Build.0 = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFF96E63-95C2-4681-B331-51F02EE9E9F0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52048DFB-267E-4EA0-9E73-2D5870D10CCA}
+	EndGlobalSection
+EndGlobal
